@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-g -Wall 
 
-mine: main.o curses.h
+mine: main.o
 	$(CC) $(CFLAGS) main.cpp -o minesweeper -lncurses
 
 clean:
