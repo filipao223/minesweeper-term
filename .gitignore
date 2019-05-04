@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Resources folder
+Resources/
+
+#VScode folders
+.vscode
+
+#Build folder
+build
+
+#Executable
+minesweeper
